@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "6c9c1735a7fe405e42c704c7ffc54c60",
+    "packages": [
+        {
+            "name": "orionapi/core",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/orionapiphp/orionapiphp-core.git",
+                "reference": "2ab0f4eb52284e2653dbdce1289b5f8b07ab6aed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/orionapiphp/orionapiphp-core/zipball/2ab0f4eb52284e2653dbdce1289b5f8b07ab6aed",
+                "reference": "2ab0f4eb52284e2653dbdce1289b5f8b07ab6aed",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "OrionApi\\Core\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Shyam Dubey",
+                    "email": "shyam0853@gmail.com"
+                }
+            ],
+            "description": "A Core Concept Behind orionapi framework Project",
+            "support": {
+                "issues": "https://github.com/orionapiphp/orionapiphp-core/issues",
+                "source": "https://github.com/orionapiphp/orionapiphp-core/tree/v1.0.0"
+            },
+            "time": "2025-05-08T12:24:44+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

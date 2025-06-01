@@ -1,0 +1,27 @@
+{
+    "name": "trishulapi/framework",
+    "description": "A Light Weight PHP Framework for creating RestFul APIs.",
+    "type": "project",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Shyam Dubey",
+            "email": "shyam0853@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TrishulApi\\App\\": "src/app/"
+        }
+    },
+    "minimum-stability": "stable",
+    "repositories": [
+        {
+            "type":"vcs",
+            "url":"https://github.com/trishulapi/framework.git"
+        }
+    ],
+    "require": {
+        "trishulapi/core": "^1.0"
+    }
+}

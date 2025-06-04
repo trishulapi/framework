@@ -8,12 +8,16 @@ require_once "vendor/autoload.php";
  * Project Structure
  * 
  * src 
- *  ├── app
- *  │   ├── models
- *  │   ├── repos
- *  │   ├── services 
- *  |   logs
- *  │   ├── 2025-06-01_log.log
+ *  ├
+*  ├── Models
+*  ├── Controllers
+*  ├── Middlwares
+*  ├── Services
+*  ├── Dto
+*  ├── Helpers
+*  ├── Exceptions
+*  |-- logs
+*      ├── 2025-06-01_log.log
  * index.php
  * .env
  * composer.json

@@ -1,4 +1,8 @@
 <?php
+
+use TrishulApi\Core\App;
+use TrishulApi\Core\Http\Router;
+
 require_once "vendor/autoload.php";
 
 
@@ -41,3 +45,13 @@ require_once "vendor/autoload.php";
  *
  *  */
 
+$app = new App;
+$app->set_env_path(".env");
+
+
+Router::get("/", ["hello"=>"Welcome To Trishul API"]);
+
+
+
+
+$app->start();
